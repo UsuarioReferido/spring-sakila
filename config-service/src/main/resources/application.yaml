@@ -1,0 +1,12 @@
+server:
+  port: 8081
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          default-label: config-server
+          uri: https://github.com/UsuarioReferido/spring-sakila
+          search-paths: master
+  application:
+    name: config-service
