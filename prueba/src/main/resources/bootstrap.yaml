@@ -1,6 +1,6 @@
 spring:
   application:
-    name: actor-service
+    name: actor-service 
   cloud:
     config:
       enabled: true
